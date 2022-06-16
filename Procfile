@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT app:streamlit_nlp
+web: waitress-serve --port=$PORT app:streamlit_nlp.py
