@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run streamlit_nlp.py
+web: waitress-serve --port=$PORT app:streamlit_nlp
